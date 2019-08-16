@@ -1,0 +1,12 @@
+
+<form class="form-container" [formGroup]="createForm" (ngSubmit)="onSubmit(createForm.value)">
+<div class="card">
+
+    <input type="text" class="container" placeholder="Your name" formControlName="name">
+
+
+    <input type="text" class="container" placeholder="Your comment" formControlName="comment">
+    <input type="submit" class="submitButton" value="Submit">
+
+</div>
+</form>

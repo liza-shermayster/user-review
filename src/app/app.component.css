@@ -1,0 +1,7 @@
+.title {
+display: flex;
+justify-content:center;
+  font-family: fantasy;
+  align-items: auto;
+  font-size: larger;
+}
